@@ -5,16 +5,22 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="358dp"
         android:layout_height="638dp"
+        android:background="#F5F5DC"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="11dp" />
 
         <TextView
             android:id="@+id/tbTextView"
@@ -25,5 +31,20 @@
             android:text="@string/top_bar_text"
             android:textAlignment="textStart"
             android:textColor="#FFFFFF" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp">
+
+            <Button
+                android:id="@+id/rollDiceBtn"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#D2691E"
+                android:text="@string/rollDiceBtn_text"
+                android:textAlignment="center" />
+        </FrameLayout>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
