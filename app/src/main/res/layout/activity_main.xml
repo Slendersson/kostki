@@ -111,5 +111,19 @@
                 android:text="Wynik gry:" />
         </FrameLayout>
 
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <Button
+                android:id="@+id/resetResultBtn"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#D2691E"
+                android:text="@string/resetResultBtn_text"
+                android:textAlignment="center" />
+        </FrameLayout>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
