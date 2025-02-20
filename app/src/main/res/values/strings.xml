@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">kostki</string>
+    <string name="top_bar_text">Gra w kości. Autor Fusik</string>
 </resources>
